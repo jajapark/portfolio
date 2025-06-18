@@ -706,12 +706,12 @@ section .button button:hover {
 .boxes .topic:hover{
     color: #fff;
 }
-.skills .boxes{
+.services .boxes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.skills .boxes .box{
+.services .boxes .box{
     position: relative;
     margin: 20px 0;
     width: calc(100%/3 - 20px);
@@ -724,7 +724,7 @@ section .button button:hover {
     color: white;
     transition: all 0.4s ease;
 }
-.skills .boxes .box::after {
+.services .boxes .box::after {
     content: "";
     position: absolute;
     top: 15px;   /* Balanced offset */
@@ -738,7 +738,7 @@ section .button button:hover {
     
 }
 
-.skills .boxes .box:hover::after {
+.services .boxes .box:hover::after {
     opacity: 1;
     transform: translate(-8px, -8px); /* Moves hover effect slightly lower */
     box-shadow: 0 0 15px #a855f7; /* Stronger glow */
